@@ -1,0 +1,9 @@
+END_DATE = "2024-12-31 23:59:59"
+CO2_MIN = 390
+CO2_MAX = 420
+NO2_MIN = 0.01
+NO2_MAX = 0.1
+SO2_MIN = 0.005
+SO2_MAX = 0.05
+OUTPUT_PATH = "data/output/synthetic_co2_data.csv"
+INTERVAL_SECONDS = 60
