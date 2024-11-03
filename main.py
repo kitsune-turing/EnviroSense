@@ -7,10 +7,10 @@ from app.src.data_generator import SyntheticPollutantDataGenerator
     Function to generate synthetic pollutant data and send it to Firebase.
 """
 def generate_and_send_data():
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] - Starting data generation...")
+    print(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] - Starting data generation...")
     generator = SyntheticPollutantDataGenerator()
     generator.generate_all_data()
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] - Data generated and sent to Firebase successfully!")
+    print(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] - Data generated and sent to Firebase successfully!")
 
 
 """
