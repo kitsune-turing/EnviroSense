@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#666666</color>
+    <color name="green">#2ABC4A</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="light_green">#9BFAB0</color>
+    <color name="purple">#7D2181</color>
+    <color name="transparent"/>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">EnviroSense</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_register">regístrate</string>
+    <string name="button">Button</string>
+    <string name="input_pass">**********</string>
+    <string name="input_user">lombook@gmail.com</string>
+    <string name="menu">Menu</string>
+    <string name="menu_docs">Docs</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_selector">activity_selector</string>
+    <string name="txt_login_google">Continua con Google</string>
+    <string name="txt_message_register">¿No tienes cuenta?</string>
+    <string name="txt_message_selector">¿Qué métrica deseas ver?</string>
+    <string name="txt_selector">Selecciona</string>
+    <string name="txt_title_login">Ingresa con tus datos o tu correo</string>
+    <style name="Theme.EnviroSense" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

@@ -10,8 +10,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
-        val txtWelcome: TextView = findViewById(R.id.txtWelcome)
-        txtWelcome.text = "¡Hola, Kotlin está funcionando!"
     }
 }
