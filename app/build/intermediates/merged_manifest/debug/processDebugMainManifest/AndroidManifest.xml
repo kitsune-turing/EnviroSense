@@ -28,12 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.EnviroSense" >
         <activity
-            android:name="com.kitsune.IUPB.android.envirosense.MainActivity"
+            android:name="com.kitsune.IUPB.android.envirosense.ActivitySelector"
             android:exported="false"
             android:label="@string/title_activity_selector"
             android:theme="@style/Theme.EnviroSense" />
         <activity
-            android:name="com.kitsune.IUPB.android.envirosense.ActivitySelector"
+            android:name="com.kitsune.IUPB.android.envirosense.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -44,8 +44,8 @@
 29-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:13:9-49
 30        <activity
 30-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:15:9-19:56
-31            android:name="com.kitsune.IUPB.android.envirosense.MainActivity"
-31-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:16:13-41
+31            android:name="com.kitsune.IUPB.android.envirosense.ActivitySelector"
+31-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:16:13-45
 32            android:exported="false"
 32-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:17:13-37
 33            android:label="@string/title_activity_selector"
@@ -54,8 +54,8 @@
 34-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:19:13-53
 35        <activity
 35-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:20:9-29:20
-36            android:name="com.kitsune.IUPB.android.envirosense.ActivitySelector"
-36-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-45
+36            android:name="com.kitsune.IUPB.android.envirosense.MainActivity"
+36-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-41
 37            android:exported="true" >
 37-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:22:13-36
 38            <intent-filter>
