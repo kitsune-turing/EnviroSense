@@ -20,6 +20,10 @@
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\ic_profile.png"
     },
     {
+        "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_chart.xml.flat",
+        "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\chart.xml"
+    },
+    {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_google_log.png.flat",
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\google_log.png"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_ic_center_icon.png.flat",
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\ic_center_icon.png"
-    },
-    {
-        "merged": "com.kitsune.IUPB.android.envirosense.app-debug-58:/layout_navegation_bar.xml.flat",
-        "source": "com.kitsune.IUPB.android.envirosense.app-main-60:/layout/navegation_bar.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_so2.png.flat",
@@ -68,6 +68,10 @@
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "com.kitsune.IUPB.android.envirosense.app-debug-58:/layout_activity_selector.xml.flat",
+        "source": "com.kitsune.IUPB.android.envirosense.app-main-60:/layout/activity_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_humedaty.png.flat",
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\humedaty.png"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_no2.PNG.flat",
+        "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\no2.PNG"
     },
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\layout_activity_selector.xml.flat",
@@ -142,6 +150,10 @@
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_ic_home.png.flat",
         "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_drop.xml.flat",
+        "source": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-main-60:\\drawable\\drop.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO CAB\\.gradle\\daemon\\8.7\\com.kitsune.IUPB.android.envirosense.app-debug-58:\\drawable_rectangle_light_green.png.flat",

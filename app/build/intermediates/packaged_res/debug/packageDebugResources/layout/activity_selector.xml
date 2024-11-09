@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ActivitySelector"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:id="@+id/ActivitySelector"
     android:paddingTop="10dp"
-    android:weightSum="10">
+    android:weightSum="5">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_weight="2.5">
-
-        <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="@drawable/btn_left" />
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
-            android:layout_marginEnd="10dp"
             android:fontFamily="@font/intel_bold"
             android:gravity="start"
             android:text="@string/txt_selector"
@@ -39,10 +31,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.3"
-        android:orientation="vertical"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp">
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -56,77 +48,104 @@
             android:textColor="@color/gray" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="5"
-        android:orientation="vertical"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp">
+        android:layout_weight="5">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
 
-            <ImageButton
-                style="@android:style/ButtonBar"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/temperature"
-                android:contentDescription="@string/button"
-                android:padding="0dp" />
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <ImageButton
-                style="@android:style/ButtonBar"
-                android:layout_width="wrap_content"
+                <ImageButton
+                    android:id="@+id/btn_temperature"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/temperature"
+                    android:contentDescription="@string/button"
+                    android:padding="0dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_so2"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/so2"
+                    android:contentDescription="@string/button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/so2"
-                android:contentDescription="@string/button" />
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_humedaty"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/humedaty"
+                    android:contentDescription="@string/button" />
+
+                <ImageButton
+                    android:id="@+id/btn_co"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/co"
+                    android:contentDescription="@string/button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_no2"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/no2"
+                    android:contentDescription="@string/button" />
+            </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <ImageButton
-                style="@android:style/ButtonBar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:background="@drawable/humedaty"
-                android:contentDescription="@string/button" />
-
-            <ImageButton
-                style="@android:style/ButtonBar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/co"
-                android:contentDescription="@string/button" />
-        </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="0dp"
+        android:layout_weight="0"
+        android:gravity="center"
         android:orientation="horizontal"
         android:padding="0dp">
 
-        <include layout="@layout/navegation_bar"/>
+        <include layout="@layout/navegation_bar" />
 
     </LinearLayout>
 

@@ -11,22 +11,7 @@
     android:weightSum="5">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:layout_weight="1.2"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_home" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_weight="1.2"
@@ -34,22 +19,30 @@
         android:orientation="vertical">
 
         <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/drop" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_docs" />
+            android:fontFamily="@font/intel_regular"
+            android:gravity="center"
+            android:text="@string/txt_see"
+            android:textColor="@color/gray" />
 
     </LinearLayout>
 
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="78dp"
+        android:layout_width="77dp"
+        android:layout_height="86dp"
         android:layout_weight="0.2"
         android:background="@drawable/ic_center_icon"
         android:padding="0dp" />
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="5dp"
         android:layout_weight="1.2"
@@ -57,24 +50,17 @@
         android:orientation="vertical">
 
         <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/chart" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_profile" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_weight="1.2"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_settings" />
+            android:fontFamily="@font/intel_regular"
+            android:gravity="center"
+            android:text="@string/txt_chart"
+            android:textColor="@color/gray" />
 
     </LinearLayout>
 </LinearLayout>
