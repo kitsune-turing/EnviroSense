@@ -54,8 +54,8 @@
 34-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:19:13-53
 35        <activity
 35-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:20:9-29:20
-36            android:name="com.kitsune.IUPB.android.envirosense.MainActivity"
-36-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-41
+36            android:name="com.kitsune.IUPB.android.envirosense.ActivityRegister"
+36-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-45
 37            android:exported="true" >
 37-->C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:22:13-36
 38            <intent-filter>

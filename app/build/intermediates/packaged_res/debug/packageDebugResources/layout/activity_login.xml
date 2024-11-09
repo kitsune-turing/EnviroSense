@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical"
+    android:background="@drawable/leaves"
     android:gravity="center"
-    android:id="@+id/MainActivity"
-    android:background="@drawable/leaves">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <LinearLayout
-        android:orientation="vertical"
         android:id="@+id/rectangle_7"
-        android:weightSum="7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:layout_gravity="center"
+        android:background="@drawable/rectangle_light_green"
         android:gravity="center"
-        android:background="@drawable/rectangle_light_green">
+        android:orientation="vertical"
+        android:weightSum="7">
 
         <TextView
             android:id="@+id/ingresa_con"
@@ -26,92 +26,87 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/txt_title_login"
-            android:gravity="center"
-            android:textColor="@color/black"
-            android:fontFamily="@font/intel_regular"
-            android:textSize="21sp"
             android:layout_weight="2"
-            />
+            android:fontFamily="@font/intel_regular"
+            android:gravity="center"
+            android:text="@string/txt_title_login"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <EditText
             android:id="@+id/input_user"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="5dp"
+            android:layout_height="40dp"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="18dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_light_gray"
+            android:fontFamily="@font/intel_regular"
+            android:hint="@string/input_user"
+            android:inputType="textEmailAddress"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
-            android:layout_weight="1"
-            android:background="@drawable/rectangle_grey"
-            android:text="@string/input_user"
-            android:fontFamily="@font/intel_regular"
-            android:textColor="@color/gray"
-            />
+            android:textColor="@color/gray" />
 
         <EditText
             android:id="@+id/input_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="40dp"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_light_gray"
+            android:fontFamily="@font/intel_regular"
+            android:hint="@string/input_pass"
+            android:inputType="textPassword"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
-            android:layout_weight="1"
-            android:background="@drawable/rectangle_grey"
-            android:text="@string/input_pass"
-            android:fontFamily="@font/intel_regular"
-            android:textColor="@color/gray"
-            />
+            android:textColor="@color/gray" />
+
         <Button
             android:id="@+id/btn_login"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/rectangle_green"
-            android:text="@string/btn_login"
             android:layout_weight="1"
-            android:textColor="@color/black"
-            android:fontFamily="@font/intel_regular"
-            android:textAllCaps="false"
+            android:background="@drawable/rectangle_green"
             android:contentDescription="@string/button"
-            />
+            android:fontFamily="@font/intel_regular"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="5dp"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="18dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
+                android:fontFamily="@font/intel_regular"
                 android:text="@string/txt_login_google"
                 android:textColor="@color/black"
-                android:fontFamily="@font/intel_regular"
-                android:textSize="17sp"
-                />
+                android:textSize="17sp" />
 
             <Button
                 android:id="@+id/btn_login_google"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:background="@drawable/google_log"
-                android:textColor="@color/black"
                 android:fontFamily="@font/intel_regular"
-                />
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout

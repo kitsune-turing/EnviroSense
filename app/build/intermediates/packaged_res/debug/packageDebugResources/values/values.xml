@@ -10,18 +10,24 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">EnviroSense</string>
     <string name="btn_login">Entrar</string>
-    <string name="btn_register">regístrate</string>
+    <string name="btn_register">Regístrate</string>
+    <string name="btn_return">Regresar</string>
     <string name="button">Button</string>
     <string name="input_pass">**********</string>
     <string name="input_user">lombook@gmail.com</string>
     <string name="title_activity_selector">activity_selector</string>
     <string name="txt_chart">Gráfica</string>
+    <string name="txt_confirm_pass">Confirm password:</string>
+    <string name="txt_email">Email:</string>
     <string name="txt_login_google">Continua con Google</string>
     <string name="txt_message_register">¿No tienes cuenta?</string>
     <string name="txt_message_selector">¿Qué métrica deseas ver?</string>
+    <string name="txt_name">Name:</string>
+    <string name="txt_pass">Password:</string>
     <string name="txt_see">Ver</string>
     <string name="txt_selector">Selecciona</string>
     <string name="txt_title_login">Ingresa con tus datos o tu correo</string>
+    <string name="txt_title_register">Regístrate</string>
     <style name="Theme.EnviroSense" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorOnPrimary">@color/white</item>

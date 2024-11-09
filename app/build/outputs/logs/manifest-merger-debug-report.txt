@@ -139,14 +139,14 @@ ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\Androi
 		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:19:13-53
 	android:name
 		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:16:13-45
-activity#com.kitsune.IUPB.android.envirosense.MainActivity
+activity#com.kitsune.IUPB.android.envirosense.ActivityRegister
 ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:20:9-29:20
 	android:exported
 		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:22:13-36
 	tools:ignore
 		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:23:13-47
 	android:name
-		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:21:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN

@@ -3026,8 +3026,9 @@ int drawable notification_template_icon_bg 0x7f0700ea
 int drawable notification_template_icon_low_bg 0x7f0700eb
 int drawable notification_tile_bg 0x7f0700ec
 int drawable notify_panel_notification_icon_bg 0x7f0700ed
+int drawable rectangle_gray 0x7f0700f9
 int drawable rectangle_green 0x7f0700ee
-int drawable rectangle_grey 0x7f0700ef
+int drawable rectangle_light_gray 0x7f0700fa
 int drawable rectangle_light_green 0x7f0700f0
 int drawable so2 0x7f0700f1
 int drawable temperature 0x7f0700f2
@@ -3250,6 +3251,9 @@ int id image 0x7f0900cb
 int id indeterminate 0x7f0900cc
 int id info 0x7f0900cd
 int id ingresa_con 0x7f0900ce
+int id input_confirm_password 0x7f0901db
+int id input_email 0x7f0901dc
+int id input_name 0x7f0901dd
 int id input_password 0x7f0900cf
 int id input_user 0x7f0900d0
 int id inspection_slot_table_set 0x7f0900d1
@@ -3628,6 +3632,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_login 0x7f0c001c
+int layout activity_register 0x7f0c006e
 int layout activity_selector 0x7f0c001d
 int layout custom_dialog 0x7f0c001e
 int layout design_bottom_navigation_item 0x7f0c001f
@@ -3750,6 +3755,7 @@ int string bottomsheet_drag_handle_clicked 0x7f100022
 int string bottomsheet_drag_handle_content_description 0x7f100023
 int string btn_login 0x7f100024
 int string btn_register 0x7f100025
+int string btn_return 0x7f100104
 int string button 0x7f100026
 int string call_notification_answer_action 0x7f100027
 int string call_notification_answer_video_action 0x7f100028
@@ -3961,12 +3967,17 @@ int string title_activity_selector 0x7f1000fa
 int string tooltip_description 0x7f1000fb
 int string tooltip_label 0x7f1000fc
 int string txt_chart 0x7f100102
+int string txt_confirm_pass 0x7f100105
+int string txt_email 0x7f100106
 int string txt_login_google 0x7f1000fd
 int string txt_message_register 0x7f1000fe
 int string txt_message_selector 0x7f1000ff
+int string txt_name 0x7f100107
+int string txt_pass 0x7f100108
 int string txt_see 0x7f100103
 int string txt_selector 0x7f100100
 int string txt_title_login 0x7f100101
+int string txt_title_register 0x7f100109
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002

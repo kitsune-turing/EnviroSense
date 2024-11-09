@@ -3027,8 +3027,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rectangle_gray
 drawable rectangle_green
-drawable rectangle_grey
+drawable rectangle_light_gray
 drawable rectangle_light_green
 drawable so2
 drawable temperature
@@ -3251,6 +3252,9 @@ id image
 id indeterminate
 id info
 id ingresa_con
+id input_confirm_password
+id input_email
+id input_name
 id input_password
 id input_user
 id inspection_slot_table_set
@@ -3629,6 +3633,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
+layout activity_register
 layout activity_selector
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3751,6 +3756,7 @@ string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
 string btn_login
 string btn_register
+string btn_return
 string button
 string call_notification_answer_action
 string call_notification_answer_video_action
@@ -3962,12 +3968,17 @@ string title_activity_selector
 string tooltip_description
 string tooltip_label
 string txt_chart
+string txt_confirm_pass
+string txt_email
 string txt_login_google
 string txt_message_register
 string txt_message_selector
+string txt_name
+string txt_pass
 string txt_see
 string txt_selector
 string txt_title_login
+string txt_title_register
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
