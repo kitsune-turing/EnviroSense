@@ -24,7 +24,7 @@ class SyntheticPollutantDataGenerator:
         self.start_datetime = datetime.now()
         self.end_datetime = datetime.strptime(END_DATE, "%Y-%m-%d %H:%M:%S")
         self.total_seconds = int((self.end_datetime - self.start_datetime).total_seconds())
-        self.num_records = self.total_seconds // INTERVAL_SECONDS
+        self.num_records = 500
         self.timestamps = [
             self.start_datetime + timedelta(seconds=i * INTERVAL_SECONDS)
             for i in range(self.num_records)
@@ -80,7 +80,7 @@ class SyntheticPollutantDataGenerator:
 
         data = [
             {
-                "dato": no2_values[i],
+                "value": no2_values[i],
                 "fecha": self.timestamps[i].isoformat(),
                 "municipio": municipalities[i]
             }
@@ -99,7 +99,7 @@ class SyntheticPollutantDataGenerator:
         
         data = [
             {
-                "dato": so2_values[i],
+                "value": so2_values[i],
                 "fecha": self.timestamps[i].isoformat(),
                 "municipio": municipalities[i]
             }
@@ -109,9 +109,47 @@ class SyntheticPollutantDataGenerator:
 
 
     """
-        generate_all_data method is used to generate synthetic data for all pollutants and send it to Firebase.
+        generate_temperature_data method is used to generate synthetic temperature data and send it to Firebase.
+    """
+    def generate_temperature_data(self):
+        temperature_values = np.random.uniform(15, 35, size=self.num_records)
+        municipalities = np.random.choice(self.municipalities, size=self.num_records)
+        
+        data = [
+            {
+                "value": temperature_values[i],
+                "date": self.timestamps[i].isoformat(),
+                "municipality": municipalities[i]
+            }
+            for i in range(self.num_records)
+        ]
+        self.send_to_firebase("Temperature", data)
+    
+    
+    """
+        generate_humidity_data method is used to generate synthetic humidity data and send it to Firebase.
+    """
+    def generate_humidity_data(self):
+        humidity_values = np.random.uniform(40, 90, size=self.num_records)
+        municipalities = np.random.choice(self.municipalities, size=self.num_records)
+        
+        data = [
+            {
+                "value": humidity_values[i],
+                "date": self.timestamps[i].isoformat(),
+                "municipality": municipalities[i]
+            }
+            for i in range(self.num_records)
+        ]
+        self.send_to_firebase("Humidity", data)
+
+
+    """
+        generate_all_data method is used to generate synthetic data for all pollutants and environmental metrics and send it to Firebase.
     """
     def generate_all_data(self):
-        self.generate_co2_data()
-        self.generate_no2_data()
         self.generate_so2_data()
+        self.generate_no2_data()
+        self.generate_co2_data()
+        self.generate_temperature_data()
+        self.generate_humidity_data()
