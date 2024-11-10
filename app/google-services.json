@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "92715883524",
+    "project_id": "data-sensor-1c4a7",
+    "storage_bucket": "data-sensor-1c4a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92715883524:android:c1919b2ef3471eef60e951",
+        "android_client_info": {
+          "package_name": "com.kitsune.IUPB.android.envirosense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92715883524-ro3tm09jt7tg6uiadtoilb2dceerv5tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUsPsUwkJp3rtJuU629c8hXgmBwLLnXLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92715883524-ro3tm09jt7tg6uiadtoilb2dceerv5tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
