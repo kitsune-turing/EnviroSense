@@ -1,60 +1,72 @@
-com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-core-2.8.6-0 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\0bbce43e792406bdba98dfc02f2c6a61\transformed\lifecycle-livedata-core-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-appcompat-1.7.0-1 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\0e1754bbfe8d373a44d8c3dfbebde56b\transformed\appcompat-1.7.0\res
-com.kitsune.IUPB.android.envirosense.app-ui-tooling-release-2 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\0f7b0febc60c9d738cceac6744d322a4\transformed\ui-tooling-release\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-core-ktx-2.8.6-3 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\13dcbf70ac278ef0b7a0ec6ca63aa75d\transformed\lifecycle-livedata-core-ktx-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-coordinatorlayout-1.1.0-4 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\2300af8f36bbc3747fdb5530ccb680c7\transformed\coordinatorlayout-1.1.0\res
-com.kitsune.IUPB.android.envirosense.app-material-1.12.0-5 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\26b99d5214598cfd891c4b89746d3c24\transformed\material-1.12.0\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-ktx-2.8.6-6 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\26c616f41d8c1525580bb644ed607e5a\transformed\lifecycle-viewmodel-ktx-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-runtime-release-7 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\2b9c45275fcd62f232bd92b25f026837\transformed\lifecycle-runtime-release\res
-com.kitsune.IUPB.android.envirosense.app-startup-runtime-1.1.1-8 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\2c3d9af423e6664a26218c04d79ae768\transformed\startup-runtime-1.1.1\res
-com.kitsune.IUPB.android.envirosense.app-ui-tooling-preview-release-9 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\2dccbb52b23542c21761d042b6a6a580\transformed\ui-tooling-preview-release\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-2.8.6-10 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\3203ff40f33406c8d9e09dccbece8679\transformed\lifecycle-livedata-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-process-2.8.6-11 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\3812e22d65994aa3fdf37d67e7483084\transformed\lifecycle-process-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-ui-release-12 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\3bf2e33f690852ed8b2e126f96cc5379\transformed\ui-release\res
-com.kitsune.IUPB.android.envirosense.app-activity-ktx-1.9.3-13 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\3f3435f5416e6971a33baf455819b455\transformed\activity-ktx-1.9.3\res
-com.kitsune.IUPB.android.envirosense.app-recyclerview-1.1.0-14 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\41a4d38775e492e40be232835f38b093\transformed\recyclerview-1.1.0\res
-com.kitsune.IUPB.android.envirosense.app-ui-test-manifest-1.6.6-15 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\44507c91ef2412d1b3742c3f9fc534e5\transformed\ui-test-manifest-1.6.6\res
-com.kitsune.IUPB.android.envirosense.app-annotation-experimental-1.4.0-16 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\4723d28cd5d2966710c729588aafef49\transformed\annotation-experimental-1.4.0\res
-com.kitsune.IUPB.android.envirosense.app-savedstate-ktx-1.2.1-17 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\4772a0b806692e852c5348746bfab36e\transformed\savedstate-ktx-1.2.1\res
-com.kitsune.IUPB.android.envirosense.app-activity-compose-1.9.3-18 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\50d0ca5c4e04cdc4aaca8b5df322f206\transformed\activity-compose-1.9.3\res
-com.kitsune.IUPB.android.envirosense.app-emoji2-1.3.0-19 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\50eca92523106b28596699a11fdfd509\transformed\emoji2-1.3.0\res
-com.kitsune.IUPB.android.envirosense.app-activity-1.9.3-20 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\5d3323f4c913ef3172dbcacc2aec945e\transformed\activity-1.9.3\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-release-21 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\622af67e3b949850426e3243e908d813\transformed\lifecycle-viewmodel-release\res
-com.kitsune.IUPB.android.envirosense.app-material-release-22 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\686f72890c8515dafe8103b6ab521a0b\transformed\material-release\res
-com.kitsune.IUPB.android.envirosense.app-core-ktx-1.13.0-23 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\6a3133a6903e368b691c76b68b055711\transformed\core-ktx-1.13.0\res
-com.kitsune.IUPB.android.envirosense.app-ui-util-release-24 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\72891eb2f93c36b5c6b1059e4fcad3d5\transformed\ui-util-release\res
-com.kitsune.IUPB.android.envirosense.app-ui-text-release-25 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\7467cae97badb71d118aee90b8f7af21\transformed\ui-text-release\res
-com.kitsune.IUPB.android.envirosense.app-animation-core-release-26 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\76654b6162eefd94976ac1f361dc8ef9\transformed\animation-core-release\res
-com.kitsune.IUPB.android.envirosense.app-animation-release-27 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\76949216c62bcc99a9859d1b4163166d\transformed\animation-release\res
-com.kitsune.IUPB.android.envirosense.app-profileinstaller-1.3.1-28 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\7867c5b92a683fc0118347391769e483\transformed\profileinstaller-1.3.1\res
-com.kitsune.IUPB.android.envirosense.app-appcompat-resources-1.7.0-29 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\7ecfa3e8d62b1b9c232dc1241f118228\transformed\appcompat-resources-1.7.0\res
-com.kitsune.IUPB.android.envirosense.app-foundation-release-30 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\8d251fa0e46510feeb00f79f0abd5947\transformed\foundation-release\res
-com.kitsune.IUPB.android.envirosense.app-ui-graphics-release-31 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\91bbc22645501788c1684f87576472c3\transformed\ui-graphics-release\res
-com.kitsune.IUPB.android.envirosense.app-ui-tooling-data-release-32 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\970e50f6ffa4dd13b629608d455f1221\transformed\ui-tooling-data-release\res
-com.kitsune.IUPB.android.envirosense.app-constraintlayout-2.0.1-33 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\a680507935df88abe93e339405a74561\transformed\constraintlayout-2.0.1\res
-com.kitsune.IUPB.android.envirosense.app-emoji2-views-helper-1.3.0-34 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\b6ef36bf9e99e36dba0aeaccdf3dc808\transformed\emoji2-views-helper-1.3.0\res
-com.kitsune.IUPB.android.envirosense.app-transition-1.5.0-35 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\ba53745d18a3f827c9b0f791ba04f047\transformed\transition-1.5.0\res
-com.kitsune.IUPB.android.envirosense.app-material3-release-36 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\bc18031cb280bfb1c29bdd2a6d5734be\transformed\material3-release\res
-com.kitsune.IUPB.android.envirosense.app-viewpager2-1.0.0-37 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\bc9a8f0daed5834fda6bfd01f9efe32c\transformed\viewpager2-1.0.0\res
-com.kitsune.IUPB.android.envirosense.app-ui-unit-release-38 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\bf05b29af5cda3292916ca190186e57a\transformed\ui-unit-release\res
-com.kitsune.IUPB.android.envirosense.app-foundation-layout-release-39 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\c28adbb9d2236be91a7a99b5cfea39f3\transformed\foundation-layout-release\res
-com.kitsune.IUPB.android.envirosense.app-drawerlayout-1.1.1-40 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\c95e7e37be89459ff75bccf648dca1c6\transformed\drawerlayout-1.1.1\res
-com.kitsune.IUPB.android.envirosense.app-core-1.13.0-41 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\c99221a7a8d2ed62aea5a7863caea0d5\transformed\core-1.13.0\res
-com.kitsune.IUPB.android.envirosense.app-ui-geometry-release-42 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\d189b3673fb3f6327623497383249c30\transformed\ui-geometry-release\res
-com.kitsune.IUPB.android.envirosense.app-savedstate-1.2.1-43 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\d6624f3710ac1ae5020215ebafba63c1\transformed\savedstate-1.2.1\res
-com.kitsune.IUPB.android.envirosense.app-cardview-1.0.0-44 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\d841812f9d4f9197b9cf590cb5bc53cb\transformed\cardview-1.0.0\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-savedstate-2.8.6-45 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\dab6c49435cb9e061a74d539cb61ae4f\transformed\lifecycle-viewmodel-savedstate-2.8.6\res
-com.kitsune.IUPB.android.envirosense.app-material-ripple-release-46 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\dcc75f4fe97e236863d5e8bd0101340d\transformed\material-ripple-release\res
-com.kitsune.IUPB.android.envirosense.app-material-icons-core-release-47 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\dec21787e129d178ae8d27630c6e4bf0\transformed\material-icons-core-release\res
-com.kitsune.IUPB.android.envirosense.app-customview-poolingcontainer-1.0.0-48 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\dfbd6b626834a4cdfb579aa23294b2c7\transformed\customview-poolingcontainer-1.0.0\res
-com.kitsune.IUPB.android.envirosense.app-runtime-release-49 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\e539cce94f54b52fdcb92d035869db84\transformed\runtime-release\res
-com.kitsune.IUPB.android.envirosense.app-lifecycle-runtime-ktx-release-50 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\f6e6f0dcbcdcde0e8492cd49b5867057\transformed\lifecycle-runtime-ktx-release\res
-com.kitsune.IUPB.android.envirosense.app-core-runtime-2.2.0-51 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\f787e440b732266ebcc95cc6e92baed4\transformed\core-runtime-2.2.0\res
-com.kitsune.IUPB.android.envirosense.app-fragment-1.5.4-52 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\f95d593480d9fd48b9d708a0cbee4d28\transformed\fragment-1.5.4\res
-com.kitsune.IUPB.android.envirosense.app-runtime-saveable-release-53 C:\Users\USUARIO CAB\.gradle\caches\transforms-4\fb569f1594a2d6c459a01f2437e7aa1f\transformed\runtime-saveable-release\res
-com.kitsune.IUPB.android.envirosense.app-resValues-54 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\build\generated\res\resValues\debug
-com.kitsune.IUPB.android.envirosense.app-packageDebugResources-55 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.kitsune.IUPB.android.envirosense.app-packageDebugResources-56 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.kitsune.IUPB.android.envirosense.app-debug-57 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.kitsune.IUPB.android.envirosense.app-debug-58 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\debug\res
-com.kitsune.IUPB.android.envirosense.app-main-59 C:\Users\USUARIO CAB\Documents\GitHub\EnviroSense\app\src\main\res
+com.kitsune.IUPB.android.envirosense.app-play-services-base-18.0.1-0 C:\Users\Mateo\.gradle\caches\transforms-4\008fe75bd9a442382ee819b1189bd6c4\transformed\play-services-base-18.0.1\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-ktx-2.8.6-1 C:\Users\Mateo\.gradle\caches\transforms-4\009af96ff622678e484948515474ec43\transformed\lifecycle-viewmodel-ktx-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-annotation-experimental-1.4.0-2 C:\Users\Mateo\.gradle\caches\transforms-4\023e9be4e031584061ab620d577823a7\transformed\annotation-experimental-1.4.0\res
+com.kitsune.IUPB.android.envirosense.app-activity-ktx-1.9.3-3 C:\Users\Mateo\.gradle\caches\transforms-4\08df979b804e0a37a81ef82da4ae09fd\transformed\activity-ktx-1.9.3\res
+com.kitsune.IUPB.android.envirosense.app-foundation-release-4 C:\Users\Mateo\.gradle\caches\transforms-4\0a7288c616752b9f9b9cf645c33a226b\transformed\foundation-release\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-core-ktx-2.8.6-5 C:\Users\Mateo\.gradle\caches\transforms-4\0dbb2cc5f3c76fd895afde24459ae41c\transformed\lifecycle-livedata-core-ktx-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-customview-poolingcontainer-1.0.0-6 C:\Users\Mateo\.gradle\caches\transforms-4\138a8a47b1f41fb0ee546ea9ec263a1b\transformed\customview-poolingcontainer-1.0.0\res
+com.kitsune.IUPB.android.envirosense.app-appcompat-1.7.0-7 C:\Users\Mateo\.gradle\caches\transforms-4\14c106cbe5ab206a1f7edc9dba292f03\transformed\appcompat-1.7.0\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-release-8 C:\Users\Mateo\.gradle\caches\transforms-4\160d7a15cece1b553ff0a91f09eee769\transformed\lifecycle-viewmodel-release\res
+com.kitsune.IUPB.android.envirosense.app-ui-test-manifest-1.6.6-9 C:\Users\Mateo\.gradle\caches\transforms-4\1804612bb93a5cbad82ebbf497738add\transformed\ui-test-manifest-1.6.6\res
+com.kitsune.IUPB.android.envirosense.app-material-ripple-release-10 C:\Users\Mateo\.gradle\caches\transforms-4\1fb6215c3674748640d7f978e850ad3e\transformed\material-ripple-release\res
+com.kitsune.IUPB.android.envirosense.app-work-runtime-ktx-2.8.0-11 C:\Users\Mateo\.gradle\caches\transforms-4\2265096f4996ae800ed5e4ea2b767d00\transformed\work-runtime-ktx-2.8.0\res
+com.kitsune.IUPB.android.envirosense.app-emoji2-1.3.0-12 C:\Users\Mateo\.gradle\caches\transforms-4\26138a990f25a987f85939f686b5ae9d\transformed\emoji2-1.3.0\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-core-2.8.6-13 C:\Users\Mateo\.gradle\caches\transforms-4\2a5506e083821a938b4cf54b5578d8cf\transformed\lifecycle-livedata-core-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-runtime-ktx-release-14 C:\Users\Mateo\.gradle\caches\transforms-4\2a7307e70aa888b8596f238cf12f4376\transformed\lifecycle-runtime-ktx-release\res
+com.kitsune.IUPB.android.envirosense.app-savedstate-ktx-1.2.1-15 C:\Users\Mateo\.gradle\caches\transforms-4\2c1513e3f3e9178ebeceec8a294eae95\transformed\savedstate-ktx-1.2.1\res
+com.kitsune.IUPB.android.envirosense.app-ui-text-release-16 C:\Users\Mateo\.gradle\caches\transforms-4\2e45a7c3c9503cf937735fe97a54fb3d\transformed\ui-text-release\res
+com.kitsune.IUPB.android.envirosense.app-activity-compose-1.9.3-17 C:\Users\Mateo\.gradle\caches\transforms-4\2e63e857ab270dd453da3e225e68d153\transformed\activity-compose-1.9.3\res
+com.kitsune.IUPB.android.envirosense.app-ui-tooling-data-release-18 C:\Users\Mateo\.gradle\caches\transforms-4\3577e8afd8829dbfb4d96740c8b6c90e\transformed\ui-tooling-data-release\res
+com.kitsune.IUPB.android.envirosense.app-savedstate-1.2.1-19 C:\Users\Mateo\.gradle\caches\transforms-4\388fdc8ac963dab9de74163abf336b7f\transformed\savedstate-1.2.1\res
+com.kitsune.IUPB.android.envirosense.app-material3-release-20 C:\Users\Mateo\.gradle\caches\transforms-4\3ba7b066e26b1080e0b0db79d5413ec7\transformed\material3-release\res
+com.kitsune.IUPB.android.envirosense.app-material-release-21 C:\Users\Mateo\.gradle\caches\transforms-4\3d707bad7f277b92cd7335e22d91de07\transformed\material-release\res
+com.kitsune.IUPB.android.envirosense.app-room-runtime-2.5.0-22 C:\Users\Mateo\.gradle\caches\transforms-4\43024a267458be35180843287777a0ea\transformed\room-runtime-2.5.0\res
+com.kitsune.IUPB.android.envirosense.app-profileinstaller-1.3.1-23 C:\Users\Mateo\.gradle\caches\transforms-4\4efcfa9aac994d61283a32d3d71fc18f\transformed\profileinstaller-1.3.1\res
+com.kitsune.IUPB.android.envirosense.app-activity-1.9.3-24 C:\Users\Mateo\.gradle\caches\transforms-4\50ccfa2b919be3138cc6c74b47df44e2\transformed\activity-1.9.3\res
+com.kitsune.IUPB.android.envirosense.app-fragment-1.5.4-25 C:\Users\Mateo\.gradle\caches\transforms-4\510c759d32695bd579183daa078cac7e\transformed\fragment-1.5.4\res
+com.kitsune.IUPB.android.envirosense.app-material-1.12.0-26 C:\Users\Mateo\.gradle\caches\transforms-4\60b7ca4de0e5bca98c5510fc5384189c\transformed\material-1.12.0\res
+com.kitsune.IUPB.android.envirosense.app-material-icons-core-release-27 C:\Users\Mateo\.gradle\caches\transforms-4\647d84f4a3a3b9a3468206282b06c8be\transformed\material-icons-core-release\res
+com.kitsune.IUPB.android.envirosense.app-drawerlayout-1.1.1-28 C:\Users\Mateo\.gradle\caches\transforms-4\6d7897601ed7e321b9d27c88439d08d7\transformed\drawerlayout-1.1.1\res
+com.kitsune.IUPB.android.envirosense.app-firebase-common-20.3.1-29 C:\Users\Mateo\.gradle\caches\transforms-4\6febe634aec28bf5ad0f7a937dfd3faa\transformed\firebase-common-20.3.1\res
+com.kitsune.IUPB.android.envirosense.app-foundation-layout-release-30 C:\Users\Mateo\.gradle\caches\transforms-4\7174cd0d463af32a70547c7fc019a6bc\transformed\foundation-layout-release\res
+com.kitsune.IUPB.android.envirosense.app-ui-tooling-preview-release-31 C:\Users\Mateo\.gradle\caches\transforms-4\76cf46fdb8fb817b75677c4f4f7df781\transformed\ui-tooling-preview-release\res
+com.kitsune.IUPB.android.envirosense.app-ui-unit-release-32 C:\Users\Mateo\.gradle\caches\transforms-4\7d4322508caaa654f05fabcd21704df9\transformed\ui-unit-release\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-process-2.8.6-33 C:\Users\Mateo\.gradle\caches\transforms-4\80b9a9256dc3c48c278194873d3e4cec\transformed\lifecycle-process-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-play-services-basement-18.1.0-34 C:\Users\Mateo\.gradle\caches\transforms-4\82058bcfcce01219f2f8f92fa58ebcdf\transformed\play-services-basement-18.1.0\res
+com.kitsune.IUPB.android.envirosense.app-startup-runtime-1.1.1-35 C:\Users\Mateo\.gradle\caches\transforms-4\8325dfc881acff187bf130845b0b04cd\transformed\startup-runtime-1.1.1\res
+com.kitsune.IUPB.android.envirosense.app-animation-release-36 C:\Users\Mateo\.gradle\caches\transforms-4\874d118e2587d3640e85488f6c7b4c6f\transformed\animation-release\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-livedata-2.8.6-37 C:\Users\Mateo\.gradle\caches\transforms-4\880d045cef07f89ffea16d2730878775\transformed\lifecycle-livedata-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-transition-1.5.0-38 C:\Users\Mateo\.gradle\caches\transforms-4\8bfeb58574e4f091de417a9833682c60\transformed\transition-1.5.0\res
+com.kitsune.IUPB.android.envirosense.app-ui-graphics-release-39 C:\Users\Mateo\.gradle\caches\transforms-4\9077d97f0bc9b0265f8ba9bcdc9b6fb2\transformed\ui-graphics-release\res
+com.kitsune.IUPB.android.envirosense.app-viewpager2-1.0.0-40 C:\Users\Mateo\.gradle\caches\transforms-4\9348a9b498a9d0913eba7279d637380c\transformed\viewpager2-1.0.0\res
+com.kitsune.IUPB.android.envirosense.app-sqlite-framework-2.3.0-41 C:\Users\Mateo\.gradle\caches\transforms-4\95d9495f84b595407a0a087b9f49e600\transformed\sqlite-framework-2.3.0\res
+com.kitsune.IUPB.android.envirosense.app-appcompat-resources-1.7.0-42 C:\Users\Mateo\.gradle\caches\transforms-4\9831650eff200c6166233f7db09b1ad3\transformed\appcompat-resources-1.7.0\res
+com.kitsune.IUPB.android.envirosense.app-cardview-1.0.0-43 C:\Users\Mateo\.gradle\caches\transforms-4\9b54c9c8f4277ea4aae4b6dc184c917d\transformed\cardview-1.0.0\res
+com.kitsune.IUPB.android.envirosense.app-animation-core-release-44 C:\Users\Mateo\.gradle\caches\transforms-4\9e6ec1c2ac62e1c771c20e999fee22da\transformed\animation-core-release\res
+com.kitsune.IUPB.android.envirosense.app-runtime-release-45 C:\Users\Mateo\.gradle\caches\transforms-4\a8a334dfaee9923e910862967ced837e\transformed\runtime-release\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-viewmodel-savedstate-2.8.6-46 C:\Users\Mateo\.gradle\caches\transforms-4\b0c386de79bbfb87efd13132357357da\transformed\lifecycle-viewmodel-savedstate-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-ui-geometry-release-47 C:\Users\Mateo\.gradle\caches\transforms-4\b5b07d79dda71bb0cff0f249a0bda0e0\transformed\ui-geometry-release\res
+com.kitsune.IUPB.android.envirosense.app-coordinatorlayout-1.1.0-48 C:\Users\Mateo\.gradle\caches\transforms-4\b71f855071720b1016bb97d665ea8091\transformed\coordinatorlayout-1.1.0\res
+com.kitsune.IUPB.android.envirosense.app-core-ktx-1.13.0-49 C:\Users\Mateo\.gradle\caches\transforms-4\b837b0f4c622ef4b39f09d12698116a9\transformed\core-ktx-1.13.0\res
+com.kitsune.IUPB.android.envirosense.app-ui-release-50 C:\Users\Mateo\.gradle\caches\transforms-4\bafa93fca29a5dc81013f1eb951eddb0\transformed\ui-release\res
+com.kitsune.IUPB.android.envirosense.app-constraintlayout-2.0.1-51 C:\Users\Mateo\.gradle\caches\transforms-4\bf6feeb618f725cca6db98471f318aa5\transformed\constraintlayout-2.0.1\res
+com.kitsune.IUPB.android.envirosense.app-play-services-auth-20.4.0-52 C:\Users\Mateo\.gradle\caches\transforms-4\c1b0989bdf285f125f2285277956e952\transformed\play-services-auth-20.4.0\res
+com.kitsune.IUPB.android.envirosense.app-ui-tooling-release-53 C:\Users\Mateo\.gradle\caches\transforms-4\c38c54c01e80657acae3034fbca5c269\transformed\ui-tooling-release\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-service-2.8.6-54 C:\Users\Mateo\.gradle\caches\transforms-4\d880f5d603e46f9be69da17e006dae44\transformed\lifecycle-service-2.8.6\res
+com.kitsune.IUPB.android.envirosense.app-lifecycle-runtime-release-55 C:\Users\Mateo\.gradle\caches\transforms-4\df6e5f78eda32a9b1fa72dc4e0a636ce\transformed\lifecycle-runtime-release\res
+com.kitsune.IUPB.android.envirosense.app-ui-util-release-56 C:\Users\Mateo\.gradle\caches\transforms-4\e5dbd853850fb915d2cfa40c53f3632d\transformed\ui-util-release\res
+com.kitsune.IUPB.android.envirosense.app-emoji2-views-helper-1.3.0-57 C:\Users\Mateo\.gradle\caches\transforms-4\ee146c5a91f7b338b0aa52d4e532e741\transformed\emoji2-views-helper-1.3.0\res
+com.kitsune.IUPB.android.envirosense.app-core-runtime-2.2.0-58 C:\Users\Mateo\.gradle\caches\transforms-4\f0171f3f6739b73ba5d2067778c6278e\transformed\core-runtime-2.2.0\res
+com.kitsune.IUPB.android.envirosense.app-core-1.13.0-59 C:\Users\Mateo\.gradle\caches\transforms-4\f446a8cb3fa7950a3208567faad10a52\transformed\core-1.13.0\res
+com.kitsune.IUPB.android.envirosense.app-work-runtime-2.8.0-60 C:\Users\Mateo\.gradle\caches\transforms-4\f61525579525350eea925d33a55a3f10\transformed\work-runtime-2.8.0\res
+com.kitsune.IUPB.android.envirosense.app-recyclerview-1.1.0-61 C:\Users\Mateo\.gradle\caches\transforms-4\f82de173f74452a2569a91ea6910a166\transformed\recyclerview-1.1.0\res
+com.kitsune.IUPB.android.envirosense.app-browser-1.4.0-62 C:\Users\Mateo\.gradle\caches\transforms-4\fb3b54d82266a35e36ac018822167abe\transformed\browser-1.4.0\res
+com.kitsune.IUPB.android.envirosense.app-runtime-saveable-release-63 C:\Users\Mateo\.gradle\caches\transforms-4\fed7c88df18d2b14af4aa4f3e8204c0e\transformed\runtime-saveable-release\res
+com.kitsune.IUPB.android.envirosense.app-sqlite-2.3.0-64 C:\Users\Mateo\.gradle\caches\transforms-4\ffc8fa4656cf07b8d5de13399d60cec7\transformed\sqlite-2.3.0\res
+com.kitsune.IUPB.android.envirosense.app-google-services-65 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\build\generated\res\google-services\debug
+com.kitsune.IUPB.android.envirosense.app-resValues-66 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\build\generated\res\resValues\debug
+com.kitsune.IUPB.android.envirosense.app-packageDebugResources-67 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.kitsune.IUPB.android.envirosense.app-packageDebugResources-68 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.kitsune.IUPB.android.envirosense.app-debug-69 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.kitsune.IUPB.android.envirosense.app-debug-70 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\src\debug\res
+com.kitsune.IUPB.android.envirosense.app-main-71 C:\Users\Mateo\AndroidStudioProjects\EnviroSense\app\src\main\res

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.kitsune.IUPB.android.envirosense.app-mergeDebugResources-56:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.kitsune.IUPB.android.envirosense.app-mergeDebugResources-68:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USUARIO CAB\\.gradle\\caches\\transforms-4\\0e1754bbfe8d373a44d8c3dfbebde56b\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Mateo\\.gradle\\caches\\transforms-4\\14c106cbe5ab206a1f7edc9dba292f03\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

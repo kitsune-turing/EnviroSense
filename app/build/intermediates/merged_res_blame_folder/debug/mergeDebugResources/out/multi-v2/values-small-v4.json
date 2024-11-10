@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.kitsune.IUPB.android.envirosense.app-mergeDebugResources-56:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.kitsune.IUPB.android.envirosense.app-mergeDebugResources-68:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USUARIO CAB\\.gradle\\caches\\transforms-4\\26b99d5214598cfd891c4b89746d3c24\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Mateo\\.gradle\\caches\\transforms-4\\60b7ca4de0e5bca98c5510fc5384189c\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
