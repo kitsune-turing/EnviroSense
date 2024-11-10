@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.kitsune.IUPB.android.envirosense"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -50,6 +50,20 @@ android {
 }
 
 dependencies {
+    // Logind data
+    implementation("androidx.work:work-runtime-ktx:2.8.0")
+
+    // Grphcs and charts
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
+    // Firebase Authentication
+    implementation("com.google.firebase:firebase-auth:21.1.0")
+    implementation("com.google.android.gms:play-services-auth:20.4.0")
+    implementation("com.google.firebase:firebase-firestore:24.7.0")
+    implementation("com.google.firebase:firebase-core:21.1.0")
+
+
+    // Dependencias de Compose y otros componentes AndroidX
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -60,6 +74,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // Dependencias de pruebas
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -68,3 +84,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+apply(plugin = "com.google.gms.google-services")
