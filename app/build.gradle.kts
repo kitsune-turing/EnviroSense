@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-    // Logind data
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4")
     implementation("androidx.work:work-runtime-ktx:2.8.0")
 
     // Grphcs and charts
@@ -84,5 +84,4 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
-
 apply(plugin = "com.google.gms.google-services")
