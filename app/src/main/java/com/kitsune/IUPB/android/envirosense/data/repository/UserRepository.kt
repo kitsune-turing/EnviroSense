@@ -11,8 +11,6 @@ import com.kitsune.IUPB.android.envirosense.data.model.User
 
 
 class UserRepository(private val firebaseAuth: FirebaseAuth) {
-
-
     fun authUser(email: String, password: String, onResult: (Boolean, FirebaseUser?) -> Unit) {
         firebaseAuth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
