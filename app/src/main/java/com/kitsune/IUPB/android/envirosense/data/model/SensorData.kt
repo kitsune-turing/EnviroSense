@@ -1,9 +1,8 @@
-package com.kitsune.IUPB.android.envirosense.model
+package com.kitsune.IUPB.android.envirosense.data.model
 
 
 data class SensorData(
-    val sensorType: String = "",
-    val value: Double = 0.0,
-    val timestamp: Long = 0L,
+    val date: String = "",
+    val value: Float = 0f,
     val municipality: String = ""
 )

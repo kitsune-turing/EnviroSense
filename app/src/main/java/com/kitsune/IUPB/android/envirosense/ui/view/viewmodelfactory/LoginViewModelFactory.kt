@@ -12,6 +12,6 @@ class LoginViewModelFactory(private val userRepository: UserRepository) : ViewMo
         if(modelClass.isAssignableFrom(LoginViewModel::class.java)){
             return LoginViewModel(userRepository) as T
         }
-        throw IllegalArgumentException("Uknown view model class")
+        throw IllegalArgumentException("Unknown view model class")
     }
 }
