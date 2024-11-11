@@ -1,9 +1,10 @@
-package com.kitsune.IUPB.android.envirosense.ui.viewmodel
+package com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory
 
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.kitsune.IUPB.android.envirosense.data.repository.UserRepository
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.LoginViewModel
 
 
 class LoginViewModelFactory(private val userRepository: UserRepository) : ViewModelProvider.Factory {
