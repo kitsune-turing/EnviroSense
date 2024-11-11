@@ -1,4 +1,4 @@
-package com.kitsune.IUPB.android.envirosense.ui.viewmodel
+package com.kitsune.IUPB.android.envirosense.ui.view.viewmodel
 
 
 import androidx.lifecycle.ViewModel
