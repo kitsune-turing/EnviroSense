@@ -2,8 +2,10 @@ package com.kitsune.IUPB.android.envirosense.ui.view
 
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.kitsune.IUPB.android.envirosense.R
+import com.kitsune.IUPB.android.envirosense.data.model.SensorData
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.charts.LineChart
@@ -20,14 +22,19 @@ import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.data.RadarDataSet
 import com.github.mikephil.charting.data.RadarEntry
+import com.google.firebase.firestore.FirebaseFirestore
+import com.kitsune.IUPB.android.envirosense.data.repository.SensorRepository
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.SensorViewModelFactory
 
 
 class No2Activity : AppCompatActivity() {
-
     private lateinit var barChart: BarChart
     private lateinit var pieChart: PieChart
     private lateinit var lineChart: LineChart
     private lateinit var radarChart: RadarChart
+    private val sensorRepository = SensorRepository(FirebaseFirestore.getInstance())
+    private val sensorViewModel: SensorViewModel by viewModels { SensorViewModelFactory(sensorRepository) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,60 +46,93 @@ class No2Activity : AppCompatActivity() {
         lineChart = findViewById(R.id.lineChart)
         radarChart = findViewById(R.id.radarChart)
 
-        // Llenar los gráficos con datos
-        setBarChartData()
-        setPieChartData()
-        setLineChartData()
-        setRadarChartData()
+
+        // Configurar observador para los datos agrupados por municipio
+        sensorViewModel.sensorDataByMunicipality.observe(this) { groupedData ->
+            updateCharts(groupedData)
+        }
+        sensorViewModel.fetchAndGroupData("NO2")
     }
 
-    private fun setBarChartData() {
-        val entries = ArrayList<BarEntry>()
-        entries.add(BarEntry(1f, 150f))
-        entries.add(BarEntry(2f, 220f))
-        entries.add(BarEntry(3f, 170f))
+    private fun updateCharts(groupedData: Map<String, List<SensorData>>) {
+        val barEntries = mutableListOf<BarEntry>()
+        val pieEntries = mutableListOf<PieEntry>()
+        val lineEntries = mutableListOf<Entry>()
+        val radarEntries = mutableListOf<RadarEntry>()
+        val colors = listOf(android.graphics.Color.BLUE,
+                            android.graphics.Color.GREEN,
+                            android.graphics.Color.MAGENTA,
+                            android.graphics.Color.CYAN,
+                            android.graphics.Color.RED)
 
-        val dataSet = BarDataSet(entries, "NO2")
-        val barData = BarData(dataSet)
-        barChart.data = barData
+        var index = 0
+        for ((municipality, sensorDataList) in groupedData) {
+            val totalValue = sensorDataList.sumOf { it.value.toDouble() }.toFloat()
+            val entryIndex = index.toFloat()
+
+            // Asignar entradas a cada gráfico
+            barEntries.add(BarEntry(entryIndex, totalValue))
+            pieEntries.add(PieEntry(totalValue, municipality))
+            lineEntries.add(Entry(entryIndex, totalValue))
+            radarEntries.add(RadarEntry(totalValue))
+
+            index++
+        }
+
+        // Configurar BarChart
+        val barDataSet = BarDataSet(barEntries, "Total NO2 por Municipio").apply {
+            setColors(*colors.toIntArray())
+            valueTextColor = android.graphics.Color.BLACK
+            valueTextSize = 12f
+        }
+        barChart.data = BarData(barDataSet)
+        barChart.description.isEnabled = false
+        barChart.animateY(1000)
         barChart.invalidate()
-    }
 
-    private fun setPieChartData() {
-        val entries = ArrayList<PieEntry>()
-        entries.add(PieEntry(50f, "Elemento A"))
-        entries.add(PieEntry(25f, "Elemento B"))
-        entries.add(PieEntry(25f, "Elemento C"))
 
-        val dataSet = PieDataSet(entries, "Distribución NO2")
-        val pieData = PieData(dataSet)
-        pieChart.data = pieData
+        // Configurar PieChart
+        val pieDataSet = PieDataSet(pieEntries, "Distribución NO2").apply {
+            setColors(*colors.toIntArray())
+            valueTextColor = android.graphics.Color.WHITE
+            valueTextSize = 12f
+        }
+        pieChart.data = PieData(pieDataSet)
+        pieChart.isDrawHoleEnabled = true
+        pieChart.holeRadius = 30f
+        pieChart.setUsePercentValues(true)
+        pieChart.description.isEnabled = false
+        pieChart.animateY(1000)
         pieChart.invalidate()
-    }
 
-    private fun setLineChartData() {
-        val entries = ArrayList<Entry>()
-        entries.add(Entry(1f, 150f))
-        entries.add(Entry(2f, 220f))
-        entries.add(Entry(3f, 170f))
 
-        val dataSet = LineDataSet(entries, "NO2")
-        val lineData = LineData(dataSet)
-        lineChart.data = lineData
+        // Configurar LineChart
+        val lineDataSet = LineDataSet(lineEntries, "NO2 por Municipio").apply {
+            color = android.graphics.Color.BLUE
+            lineWidth = 2f
+            circleRadius = 5f
+            setCircleColor(android.graphics.Color.RED)
+            valueTextSize = 12f
+            setDrawFilled(true)
+            fillColor = android.graphics.Color.CYAN
+        }
+        lineChart.data = LineData(lineDataSet)
+        lineChart.description.isEnabled = false
+        lineChart.animateY(1000)
         lineChart.invalidate()
-    }
 
-    private fun setRadarChartData() {
-        val entries = ArrayList<RadarEntry>()
-        entries.add(RadarEntry(150f))
-        entries.add(RadarEntry(220f))
-        entries.add(RadarEntry(170f))
-        entries.add(RadarEntry(180f))
-        entries.add(RadarEntry(160f))
 
-        val dataSet = RadarDataSet(entries, "Datos Radar NO2")
-        val radarData = RadarData(dataSet)
-        radarChart.data = radarData
+        // Configurar RadarChart
+        val radarDataSet = RadarDataSet(radarEntries, "NO2 en Radar").apply {
+            color = android.graphics.Color.MAGENTA
+            fillColor = android.graphics.Color.GREEN
+            setDrawFilled(true)
+            valueTextColor = android.graphics.Color.BLACK
+            valueTextSize = 12f
+        }
+        radarChart.data = RadarData(radarDataSet)
+        radarChart.description.isEnabled = false
+        radarChart.animateY(1000)
         radarChart.invalidate()
     }
 }

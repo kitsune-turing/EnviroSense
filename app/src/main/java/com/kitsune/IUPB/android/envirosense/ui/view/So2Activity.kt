@@ -1,13 +1,10 @@
 package com.kitsune.IUPB.android.envirosense.ui.view
 
+
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.kitsune.IUPB.android.envirosense.R
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.So2ViewModel
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.So2ViewModelFactory
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.charts.LineChart
@@ -24,104 +21,114 @@ import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.data.RadarDataSet
 import com.github.mikephil.charting.data.RadarEntry
-import com.kitsune.IUPB.android.envirosense.data.repository.FirestoreRepository
-import com.kitsune.IUPB.android.envirosense.model.SensorData
+import com.kitsune.IUPB.android.envirosense.data.model.SensorData
+import com.kitsune.IUPB.android.envirosense.data.repository.SensorRepository
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.SensorViewModelFactory
+import com.google.firebase.firestore.FirebaseFirestore
+
 
 class So2Activity : AppCompatActivity() {
-
-    private val sensorRepository = FirestoreRepository()
-    private val so2ViewModel: So2ViewModel by viewModels {
-        So2ViewModelFactory(sensorRepository)
-    }
-
     private lateinit var barChart: BarChart
     private lateinit var pieChart: PieChart
     private lateinit var lineChart: LineChart
     private lateinit var radarChart: RadarChart
+    private val sensorRepository = SensorRepository(FirebaseFirestore.getInstance())
+    private val sensorViewModel: SensorViewModel by viewModels { SensorViewModelFactory(sensorRepository) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_so2)
 
-        // Inicializar los gráficos
+        // Referencias a los gráficos
         barChart = findViewById(R.id.barChart)
         pieChart = findViewById(R.id.pieChart)
         lineChart = findViewById(R.id.lineChart)
         radarChart = findViewById(R.id.radarChart)
 
 
-        // Observar los datos de SO2 antes de hacer la carga
-        so2ViewModel.so2Data.observe(this) { data ->
-            if (!data.isNullOrEmpty()) {
-                data.forEachIndexed { index, sensorData ->
-                    Log.d("So2Activity", "Data item $index - Municipality: ${sensorData.municipality}, Value: ${sensorData.value}")
-                }
-                updateChartsWithData(data)
-            } else {
-                Log.d("So2Activity", "No data received")
-                Toast.makeText(this, "No data available", Toast.LENGTH_SHORT).show()
-            }
+        // Configurar observador para los datos agrupados por municipio
+        sensorViewModel.sensorDataByMunicipality.observe(this) { groupedData ->
+            updateCharts(groupedData)
         }
-
-        // Iniciar la carga de datos después de la observación
-        so2ViewModel.fetchSo2Data()
+        sensorViewModel.fetchAndGroupData("SO2")
     }
 
-    private fun updateChartsWithData(data: List<SensorData>) {
-        setBarChartData(data)
-        setPieChartData(data)
-        setLineChartData(data)
-        setRadarChartData(data)
-    }
+    private fun updateCharts(groupedData: Map<String, List<SensorData>>) {
+        val barEntries = mutableListOf<BarEntry>()
+        val pieEntries = mutableListOf<PieEntry>()
+        val lineEntries = mutableListOf<Entry>()
+        val radarEntries = mutableListOf<RadarEntry>()
+        val colors = listOf(android.graphics.Color.BLUE, android.graphics.Color.GREEN, android.graphics.Color.MAGENTA, android.graphics.Color.CYAN, android.graphics.Color.RED)
 
-    private fun setBarChartData(data: List<SensorData>) {
-        val entries = data.mapIndexed { index, sensorData ->
-            BarEntry(index.toFloat(), sensorData.value.toFloat())
+        var index = 0
+        for ((municipality, sensorDataList) in groupedData) {
+            val totalValue = sensorDataList.sumOf { it.value.toDouble() }.toFloat()
+            val entryIndex = index.toFloat()
+
+            // Asignar entradas a cada gráfico
+            barEntries.add(BarEntry(entryIndex, totalValue))
+            pieEntries.add(PieEntry(totalValue, municipality))
+            lineEntries.add(Entry(entryIndex, totalValue))
+            radarEntries.add(RadarEntry(totalValue))
+
+            index++
         }
 
-        val dataSet = BarDataSet(entries, "SO2").apply {
-            color = resources.getColor(R.color.purple, theme)
+        // Configurar BarChart
+        val barDataSet = BarDataSet(barEntries, "Total SO2 por Municipio").apply {
+            setColors(*colors.toIntArray())
+            valueTextColor = android.graphics.Color.BLACK
+            valueTextSize = 12f
         }
-        barChart.data = BarData(dataSet)
+        barChart.data = BarData(barDataSet)
+        barChart.description.isEnabled = false
+        barChart.animateY(1000)
         barChart.invalidate()
-    }
 
-    private fun setPieChartData(data: List<SensorData>) {
-        val totalValue = data.sumOf { it.value.toDouble() }
 
-        val entries = data.map { sensorData ->
-            val percentage = (sensorData.value.toDouble() / totalValue) * 100
-            PieEntry(percentage.toFloat(), sensorData.municipality)
+        // Configurar PieChart
+        val pieDataSet = PieDataSet(pieEntries, "Distribución SO2").apply {
+            setColors(*colors.toIntArray())
+            valueTextColor = android.graphics.Color.WHITE
+            valueTextSize = 12f
         }
-
-        val dataSet = PieDataSet(entries, "Distribución SO2").apply {
-            setColors(resources.getColor(R.color.purple, theme))
-        }
-        pieChart.data = PieData(dataSet)
+        pieChart.data = PieData(pieDataSet)
+        pieChart.isDrawHoleEnabled = true
+        pieChart.holeRadius = 30f
+        pieChart.setUsePercentValues(true)
+        pieChart.description.isEnabled = false
+        pieChart.animateY(1000)
         pieChart.invalidate()
-    }
 
-    private fun setLineChartData(data: List<SensorData>) {
-        val entries = data.mapIndexed { index, sensorData ->
-            Entry(index.toFloat(), sensorData.value.toFloat())
-        }
 
-        val dataSet = LineDataSet(entries, "SO2").apply {
-            color = resources.getColor(R.color.green, theme)
+        // Configurar LineChart
+        val lineDataSet = LineDataSet(lineEntries, "SO2 por Municipio").apply {
+            color = android.graphics.Color.BLUE
+            lineWidth = 2f
+            circleRadius = 5f
+            setCircleColor(android.graphics.Color.RED)
+            valueTextSize = 12f
+            setDrawFilled(true)
+            fillColor = android.graphics.Color.CYAN
         }
-        lineChart.data = LineData(dataSet)
+        lineChart.data = LineData(lineDataSet)
+        lineChart.description.isEnabled = false
+        lineChart.animateY(1000)
         lineChart.invalidate()
-    }
 
-    private fun setRadarChartData(data: List<SensorData>) {
-        val entries = data.map { sensorData ->
-            RadarEntry(sensorData.value.toFloat())
-        }
 
-        val dataSet = RadarDataSet(entries, "Datos Radar SO2").apply {
-            color = resources.getColor(R.color.purple, theme)
+        // Configurar RadarChart
+        val radarDataSet = RadarDataSet(radarEntries, "SO2 en Radar").apply {
+            color = android.graphics.Color.MAGENTA
+            fillColor = android.graphics.Color.GREEN
+            setDrawFilled(true)
+            valueTextColor = android.graphics.Color.BLACK
+            valueTextSize = 12f
         }
-        radarChart.data = RadarData(dataSet)
+        radarChart.data = RadarData(radarDataSet)
+        radarChart.description.isEnabled = false
+        radarChart.animateY(1000)
         radarChart.invalidate()
     }
 }

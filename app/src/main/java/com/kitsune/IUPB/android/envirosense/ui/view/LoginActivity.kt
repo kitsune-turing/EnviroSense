@@ -10,8 +10,8 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.kitsune.IUPB.android.envirosense.R
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.LoginViewModel
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.LoginViewModelFactory
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.LoginViewModel
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.LoginViewModelFactory
 import com.kitsune.IUPB.android.envirosense.data.session.SessionManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.gms.auth.api.signin.GoogleSignIn

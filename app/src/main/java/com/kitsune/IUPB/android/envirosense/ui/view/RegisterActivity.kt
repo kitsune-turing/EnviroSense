@@ -3,7 +3,6 @@ package com.kitsune.IUPB.android.envirosense.ui.view
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -11,10 +10,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.kitsune.IUPB.android.envirosense.R
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.RegisterViewModel
-import com.kitsune.IUPB.android.envirosense.ui.viewmodel.RegisterViewModelFactory
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.RegisterViewModel
+import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.RegisterViewModelFactory
 import com.kitsune.IUPB.android.envirosense.data.session.SessionManager
-import com.kitsune.IUPB.android.envirosense.data.model.User
 import com.kitsune.IUPB.android.envirosense.data.repository.UserRepository
 
 
