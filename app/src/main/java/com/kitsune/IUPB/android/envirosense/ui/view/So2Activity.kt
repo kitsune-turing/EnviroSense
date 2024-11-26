@@ -29,6 +29,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 
 class So2Activity : AppCompatActivity() {
+
     private lateinit var barChart: BarChart
     private lateinit var pieChart: PieChart
     private lateinit var lineChart: LineChart

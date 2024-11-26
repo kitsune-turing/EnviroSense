@@ -84,6 +84,10 @@
         "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/drawable/ic_settings.png"
     },
     {
+        "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/drawable_border_green.xml.flat",
+        "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/drawable/border_green.xml"
+    },
+    {
         "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/drawable_rectangle_gray.png.flat",
         "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/drawable/rectangle_gray.png"
     },

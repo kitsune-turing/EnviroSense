@@ -9,8 +9,13 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.auth.AuthCredential
 import com.kitsune.IUPB.android.envirosense.data.model.User
 
-
+/**
+ * Class information for user repository data
+ */
 class UserRepository(private val firebaseAuth: FirebaseAuth) {
+    /**
+     * Get auth user
+     */
     fun authUser(email: String, password: String, onResult: (Boolean, FirebaseUser?) -> Unit) {
         firebaseAuth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
@@ -22,6 +27,9 @@ class UserRepository(private val firebaseAuth: FirebaseAuth) {
             }
     }
 
+    /**
+     * Login with google
+     */
     fun loginWithGoogle(idToken: String, onResult: (Boolean, FirebaseUser?) -> Unit) {
         val credential: AuthCredential = GoogleAuthProvider.getCredential(idToken, null)
         firebaseAuth.signInWithCredential(credential)
@@ -34,6 +42,9 @@ class UserRepository(private val firebaseAuth: FirebaseAuth) {
             }
     }
 
+    /**
+     * Register user
+     */
     fun registerUser(email: String, password: String, onResult: (Boolean, FirebaseUser?) -> Unit) {
         firebaseAuth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
@@ -45,6 +56,9 @@ class UserRepository(private val firebaseAuth: FirebaseAuth) {
             }
     }
 
+    /**
+     * Create user into collection
+     */
     fun saveUserData(user: User) {
         val db = FirebaseFirestore.getInstance()
         val userMap = hashMapOf(

@@ -52,6 +52,17 @@ class RegisterActivity : AppCompatActivity() {
             val confirmPassword = inputConfirmPassword.text.toString()
 
 
+            if(name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
+                Toast.makeText(this, "Elementos clear", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            if(!email.contains("@")){
+                Toast.makeText(this, "Email no contain @", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+
             if (password != confirmPassword) {
                 Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener

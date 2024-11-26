@@ -9,6 +9,7 @@ import kotlinx.coroutines.launch
 
 
 class SensorViewModel(private val repository: SensorRepository) : ViewModel() {
+
     private val _sensorDataByMunicipality = MutableLiveData<Map<String, List<SensorData>>>()
     val sensorDataByMunicipality: LiveData<Map<String, List<SensorData>>> get() = _sensorDataByMunicipality
 

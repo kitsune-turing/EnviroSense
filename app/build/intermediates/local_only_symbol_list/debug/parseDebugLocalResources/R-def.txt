@@ -8,6 +8,7 @@ color light_green
 color purple
 color transparent
 color white
+drawable border_green
 drawable btn_left
 drawable chart
 drawable co
@@ -54,6 +55,7 @@ id lineChart
 id pieChart
 id radarChart
 id rectangle_7
+id tvTitle
 layout activity_co
 layout activity_humedaty
 layout activity_login

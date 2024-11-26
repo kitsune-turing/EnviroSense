@@ -12,7 +12,9 @@ class SessionManager(context: Context) {
     private val KEY_LOGGED_IN = "logged_in"
 
 
-    // Guarda el ID de usuario y el estado de inicio de sesión
+    /***
+     * Save user state and uuid into shared preferences
+     */
     fun saveUserSession(userId: String, email: String) {
         val editor = sharedPreferences.edit()
         editor.putString(KEY_USER_ID, userId)
@@ -22,7 +24,9 @@ class SessionManager(context: Context) {
     }
 
 
-    // Recupera el ID de usuario y el estado de inicio de sesión
+    /***
+     * Get user shared preferences
+     */
     fun getUserSession(): Pair<String, String>? {
         val userId = sharedPreferences.getString(KEY_USER_ID, null)
         val email = sharedPreferences.getString(KEY_EMAIL, null)
@@ -34,13 +38,17 @@ class SessionManager(context: Context) {
     }
 
 
-    // Verifica si el usuario está logueado
+    /***
+     * User login in plataform
+     */
     fun isLoggedIn(): Boolean {
         return sharedPreferences.getBoolean(KEY_LOGGED_IN, false)
     }
 
 
-    // Elimina la sesión (logout)
+    /**
+     * Delete user into shared preferences
+     */
     fun clearSession() {
         val editor = sharedPreferences.edit()
         editor.remove(KEY_USER_ID)

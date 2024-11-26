@@ -8,6 +8,7 @@ import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.RegisterViewModel
 
 
 class RegisterViewModelFactory(private val userRepository: UserRepository) : ViewModelProvider.Factory {
+
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(RegisterViewModel::class.java)) {
             return RegisterViewModel(userRepository) as T

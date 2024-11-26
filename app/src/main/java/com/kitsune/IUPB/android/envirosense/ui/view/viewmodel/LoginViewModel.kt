@@ -8,6 +8,7 @@ import com.kitsune.IUPB.android.envirosense.data.model.User
 
 
 class LoginViewModel(private val userRepository: UserRepository) : ViewModel() {
+
     fun loginUser(email: String, password: String, onResult: (Boolean, FirebaseUser?) -> Unit) {
         userRepository.authUser(email, password) { isSuccess, user ->
             onResult(isSuccess, user)

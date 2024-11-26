@@ -7,6 +7,7 @@ import com.kitsune.IUPB.android.envirosense.data.model.User
 
 
 class RegisterViewModel(private val userRepository: UserRepository) : ViewModel() {
+
     fun registerUser(name: String, email: String, password: String, onResult: (Boolean, User?) -> Unit) {
         userRepository.registerUser(email, password) { isSuccess, user ->
             if (isSuccess && user != null) {

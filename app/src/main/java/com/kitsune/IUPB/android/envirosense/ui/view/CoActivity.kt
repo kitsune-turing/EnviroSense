@@ -118,6 +118,7 @@ class CoActivity : AppCompatActivity() {
             valueTextColor = Color.BLACK
             valueTextSize = 12f
         }
+
         radarChart.data = RadarData(radarDataSet)
         radarChart.description.isEnabled = false
         radarChart.animateY(1000)

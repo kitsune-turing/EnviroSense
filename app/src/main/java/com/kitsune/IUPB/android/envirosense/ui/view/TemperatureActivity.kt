@@ -31,6 +31,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 
 class TemperatureActivity : AppCompatActivity() {
+
     private val sensorRepository = SensorRepository(FirebaseFirestore.getInstance())
     private val sensorViewModel: SensorViewModel by viewModels { SensorViewModelFactory(sensorRepository) }
     private lateinit var barChart: BarChart

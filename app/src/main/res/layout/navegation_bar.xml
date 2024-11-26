@@ -30,7 +30,6 @@
             android:gravity="center"
             android:text="@string/txt_see"
             android:textColor="@color/gray" />
-
     </LinearLayout>
 
 

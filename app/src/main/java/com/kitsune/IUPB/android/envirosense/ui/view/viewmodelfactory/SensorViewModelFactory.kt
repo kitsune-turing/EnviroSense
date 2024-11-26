@@ -8,6 +8,7 @@ import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
 
 
 class SensorViewModelFactory(private val repository: SensorRepository) : ViewModelProvider.Factory {
+
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(SensorViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")

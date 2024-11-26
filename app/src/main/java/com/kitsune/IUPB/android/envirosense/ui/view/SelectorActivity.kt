@@ -52,5 +52,6 @@ class SelectorActivity : AppCompatActivity() {
         btnNo2.setOnClickListener {
             IntentUtil.navigateToActivity(this, No2Activity::class.java)
         }
+
     }
 }

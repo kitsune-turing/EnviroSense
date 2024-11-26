@@ -41,7 +41,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
         inputUser = findViewById(R.id.input_user)
         inputPass = findViewById(R.id.input_password)
         btnLogin = findViewById(R.id.btn_login)
@@ -54,6 +53,9 @@ class LoginActivity : AppCompatActivity() {
             val email = inputUser.text.toString()
             val pass = inputPass.text.toString()
 
+            if(email.isEmpty() || pass.isEmpty()){
+                Toast.makeText(this, "Information null", Toast.LENGTH_SHORT).show()
+            }
 
             loginViewModel.loginUser(email, pass) { isSuccess, user ->
                 if (isSuccess) {
@@ -89,7 +91,6 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-
 
         if (requestCode == RC_SIGN_IN) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)

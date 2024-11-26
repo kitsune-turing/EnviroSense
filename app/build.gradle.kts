@@ -56,7 +56,7 @@ dependencies {
     // Grphcs and charts
     implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
-    // Firebase Authentication
+    // Firebase
     implementation("com.google.firebase:firebase-auth:21.1.0")
     implementation("com.google.android.gms:play-services-auth:20.4.0")
     implementation("com.google.firebase:firebase-firestore:24.7.0")

@@ -7,7 +7,17 @@ import com.kitsune.IUPB.android.envirosense.data.model.SensorData
 import kotlinx.coroutines.tasks.await
 
 
+/**
+ * Repository for manager acess to data sensor save in firebase
+ * @param firestore instance to FirebaseFirestore for search in data base
+ */
 class SensorRepository(private val firestore: FirebaseFirestore) {
+
+    /**
+     * Get data by type sensor
+     * @param SensorType as of type sensor search
+     * @param list  of sensor for save elements
+     */
     suspend fun fetchSensorData(sensorType: String): List<SensorData> {
         val dataList = mutableListOf<SensorData>()
         try {

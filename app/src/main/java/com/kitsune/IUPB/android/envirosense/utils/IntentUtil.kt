@@ -7,6 +7,7 @@ import android.util.Log
 
 
 object IntentUtil {
+
     // Método único para navegar a cualquier actividad
     fun navigateToActivity(context: Context, activityClass: Class<*>) {
         val intent = Intent(context, activityClass)

@@ -3,38 +3,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:padding="16dp">
 
-    <!-- Gráfico de barras -->
-    <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/barChart"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="10dp"
-        android:contentDescription="Gráfico de Barras" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
 
-    <!-- Gráfico de torta -->
-    <com.github.mikephil.charting.charts.PieChart
-        android:id="@+id/pieChart"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="10dp"
-        android:contentDescription="Gráfico de Torta" />
+        android:paddingBottom="8dp">
 
-    <!-- Gráfico de línea -->
-    <com.github.mikephil.charting.charts.LineChart
-        android:id="@+id/lineChart"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="10dp"
-        android:contentDescription="Gráfico de Línea" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monóxido de Carbono"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
-    <!-- Gráfico de radar -->
+    </LinearLayout>
+
     <com.github.mikephil.charting.charts.RadarChart
         android:id="@+id/radarChart"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/border_green"
         android:contentDescription="Gráfico de Radar" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="8dp">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/border_green"
+            android:contentDescription="Gráfico de Barras" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_green"
+            android:contentDescription="Gráfico de Torta" />
+    </LinearLayout>
+
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/border_green"
+        android:contentDescription="Gráfico de Línea" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp">
+        <include layout="@layout/navegation_bar" />
+    </LinearLayout>
 </LinearLayout>
