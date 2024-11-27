@@ -12,8 +12,8 @@
     <string name="txt_selector">Selecciona</string>
     <string name="txt_message_selector">¿Qué métrica deseas ver?</string>
     <string name="button">Button</string>
-    <string name="txt_see">Ver</string>
-    <string name="txt_chart">Gráfica</string>
+    <string name="txt_back">Volver</string>
+    <string name="txt_exit">Salir</string>
     <string name="txt_title_register">Regístrate</string>
     <string name="txt_name">Name:</string>
     <string name="txt_email">Email:</string>

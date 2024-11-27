@@ -26,6 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.kitsune.IUPB.android.envirosense.data.repository.SensorRepository
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.SensorViewModelFactory
+import com.kitsune.IUPB.android.envirosense.utils.ChartUtil
 
 
 class No2Activity : AppCompatActivity() {
@@ -59,11 +60,7 @@ class No2Activity : AppCompatActivity() {
         val pieEntries = mutableListOf<PieEntry>()
         val lineEntries = mutableListOf<Entry>()
         val radarEntries = mutableListOf<RadarEntry>()
-        val colors = listOf(android.graphics.Color.BLUE,
-                            android.graphics.Color.GREEN,
-                            android.graphics.Color.MAGENTA,
-                            android.graphics.Color.CYAN,
-                            android.graphics.Color.RED)
+        val colors = ChartUtil.getCustomColors()
 
         var index = 0
         for ((municipality, sensorDataList) in groupedData) {

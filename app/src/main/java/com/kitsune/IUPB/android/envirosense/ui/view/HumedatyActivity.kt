@@ -27,6 +27,7 @@ import com.kitsune.IUPB.android.envirosense.data.model.SensorData
 import com.kitsune.IUPB.android.envirosense.data.repository.SensorRepository
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.SensorViewModelFactory
+import com.kitsune.IUPB.android.envirosense.utils.ChartUtil
 
 
 class HumedatyActivity : AppCompatActivity() {
@@ -62,7 +63,7 @@ class HumedatyActivity : AppCompatActivity() {
         val pieEntries = mutableListOf<PieEntry>()
         val lineEntries = mutableListOf<Entry>()
         val radarEntries = mutableListOf<RadarEntry>()
-        val colors = listOf(Color.BLUE, Color.GREEN, Color.MAGENTA, Color.CYAN, Color.RED)
+        val colors = ChartUtil.getCustomColors()
 
 
         var index = 0

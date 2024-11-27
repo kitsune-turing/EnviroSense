@@ -19,16 +19,17 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/btnReturn"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/drop" />
+            android:src="@drawable/back_icon" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/intel_regular"
             android:gravity="center"
-            android:text="@string/txt_see"
+            android:text="@string/txt_back"
             android:textColor="@color/gray" />
     </LinearLayout>
 
@@ -49,16 +50,17 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/btnExit"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/chart" />
+            android:src="@drawable/exit_icon" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/intel_regular"
             android:gravity="center"
-            android:text="@string/txt_chart"
+            android:text="@string/txt_exit"
             android:textColor="@color/gray" />
 
     </LinearLayout>

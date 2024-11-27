@@ -28,6 +28,7 @@ import com.kitsune.IUPB.android.envirosense.data.repository.SensorRepository
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodel.SensorViewModel
 import com.kitsune.IUPB.android.envirosense.ui.view.viewmodelfactory.SensorViewModelFactory
 import com.google.firebase.firestore.FirebaseFirestore
+import com.kitsune.IUPB.android.envirosense.utils.ChartUtil
 
 
 class TemperatureActivity : AppCompatActivity() {
@@ -63,7 +64,7 @@ class TemperatureActivity : AppCompatActivity() {
         val pieEntries = mutableListOf<PieEntry>()
         val lineEntries = mutableListOf<Entry>()
         val radarEntries = mutableListOf<RadarEntry>()
-        val colors = listOf(Color.BLUE, Color.GREEN, Color.MAGENTA, Color.CYAN, Color.RED)
+        val colors = ChartUtil.getCustomColors()
 
 
         var index = 0
