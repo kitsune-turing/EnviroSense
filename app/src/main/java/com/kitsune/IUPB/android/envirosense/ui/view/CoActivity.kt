@@ -79,6 +79,7 @@ class CoActivity : AppCompatActivity() {
         barChart.animateY(1000)
         barChart.invalidate()
 
+        
 
         // Configurar PieChart
         val pieDataSet = PieDataSet(pieEntries, "Distribución de CO2").apply {
