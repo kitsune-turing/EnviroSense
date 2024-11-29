@@ -152,6 +152,10 @@
         "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/layout/activity_co.xml"
     },
     {
+        "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/drawable_back_icon.xml.flat",
+        "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/drawable/back_icon.xml"
+    },
+    {
         "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/layout_activity_no2.xml.flat",
         "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/layout/activity_no2.xml"
     },
@@ -182,6 +186,10 @@
     {
         "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/xml_backup_rules.xml.flat",
         "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/drawable_exit_icon.xml.flat",
+        "source": "com.kitsune.IUPB.android.envirosense.app-main-72:/drawable/exit_icon.xml"
     },
     {
         "merged": "com.kitsune.IUPB.android.envirosense.app-debug-70:/mipmap-xxhdpi_ic_launcher.webp.flat",

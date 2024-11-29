@@ -5,38 +5,38 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
+    <!-- Título -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
         android:paddingBottom="8dp">
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Humedaty"
+            android:text="Humedad"
             android:textSize="25sp"
             android:textStyle="bold"
-            android:textColor="#000000"/>
-
+            android:textColor="#000000" />
     </LinearLayout>
 
+    <!-- Gráfico de Radar -->
     <com.github.mikephil.charting.charts.RadarChart
         android:id="@+id/radarChart"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:layout_marginBottom="8dp"
         android:background="@drawable/border_green"
         android:contentDescription="Gráfico de Radar" />
 
-
-
+    <!-- Gráficos de Barras y Torta -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:orientation="horizontal"
         android:weightSum="2"
         android:layout_marginBottom="8dp">
@@ -44,7 +44,7 @@
         <com.github.mikephil.charting.charts.BarChart
             android:id="@+id/barChart"
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_marginEnd="4dp"
             android:background="@drawable/border_green"
@@ -53,33 +53,31 @@
         <com.github.mikephil.charting.charts.PieChart
             android:id="@+id/pieChart"
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_marginStart="4dp"
             android:background="@drawable/border_green"
             android:contentDescription="Gráfico de Torta" />
     </LinearLayout>
 
-
-
+    <!-- Gráfico de Línea -->
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChart"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:layout_marginBottom="8dp"
         android:background="@drawable/border_green"
         android:contentDescription="Gráfico de Línea" />
 
-
+    <!-- Barra de Navegación -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="0dp"
-        android:layout_weight="0.5"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="0dp">
+        android:padding="2dp">
         <include layout="@layout/navegation_bar" />
     </LinearLayout>
 </LinearLayout>

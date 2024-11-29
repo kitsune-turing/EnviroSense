@@ -2935,6 +2935,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_icon
 drawable border_green
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2972,6 +2973,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable drop
+drawable exit_icon
 drawable google_log
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3188,6 +3190,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnExit
+id btnReturn
 id btn_co
 id btn_humedaty
 id btn_login
@@ -4070,15 +4074,15 @@ string template_percent
 string title_activity_selector
 string tooltip_description
 string tooltip_label
-string txt_chart
+string txt_back
 string txt_confirm_pass
 string txt_email
+string txt_exit
 string txt_login_google
 string txt_message_register
 string txt_message_selector
 string txt_name
 string txt_pass
-string txt_see
 string txt_selector
 string txt_title_login
 string txt_title_register

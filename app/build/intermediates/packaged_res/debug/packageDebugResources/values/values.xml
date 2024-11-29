@@ -23,15 +23,15 @@
     <string name="input_user">lombook@gmail.com</string>
     <string name="project_id" translatable="false">data-sensor-1c4a7</string>
     <string name="title_activity_selector">activity_selector</string>
-    <string name="txt_chart">Gráfica</string>
+    <string name="txt_back">Volver</string>
     <string name="txt_confirm_pass">Confirm password:</string>
     <string name="txt_email">Email:</string>
+    <string name="txt_exit">Salir</string>
     <string name="txt_login_google">Continua con Google</string>
     <string name="txt_message_register">¿No tienes cuenta?</string>
     <string name="txt_message_selector">¿Qué métrica deseas ver?</string>
     <string name="txt_name">Name:</string>
     <string name="txt_pass">Password:</string>
-    <string name="txt_see">Ver</string>
     <string name="txt_selector">Selecciona</string>
     <string name="txt_title_login">Ingresa con tus datos o tu correo</string>
     <string name="txt_title_register">Regístrate</string>

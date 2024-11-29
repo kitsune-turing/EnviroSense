@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ISABEL\.gradle\caches\transforms-4\f82940ba5bfaacd899823ab820079db8\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime-ktx:2.8.0] C:\Users\ISABEL\.gradle\caches\transforms-4\91a4d4eaf1f058d647d7f6a51b1cb292\transformed\work-runtime-ktx-2.8.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\ISABEL\.gradle\caches\transforms-4\047dfacec925310cffc9a8fb854bb956\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -124,7 +124,7 @@ MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\ISABEL\.gradle\caches\transfo
 	xmlns:android
 		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\ae28a34a74e272f6a07a4b77cf9640c6\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\ae28a34a74e272f6a07a4b77cf9640c6\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] C:\Users\ISABEL\.gradle\caches\transforms-4\076463144609a0ba1bc32822c13d5d0c\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:13:5-67
@@ -140,9 +140,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\94dbfb4b3b32a0e06c622a97eef82860\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\94dbfb4b3b32a0e06c622a97eef82860\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:8:5-79
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\ae28a34a74e272f6a07a4b77cf9640c6\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ISABEL\.gradle\caches\transforms-4\ae28a34a74e272f6a07a4b77cf9640c6\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] C:\Users\ISABEL\.gradle\caches\transforms-4\076463144609a0ba1bc32822c13d5d0c\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:12:5-79
@@ -162,18 +162,18 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\ISABEL\.gradle\caches\transforms-4\3fd939b977ad5a08462a11e75b0e03ac\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\ISABEL\.gradle\caches\transforms-4\3fd939b977ad5a08462a11e75b0e03ac\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:8:22-76
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:13:5-48:19
-INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:13:5-48:19
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:11:5-46:19
+INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:11:5-46:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ISABEL\.gradle\caches\transforms-4\f82940ba5bfaacd899823ab820079db8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ISABEL\.gradle\caches\transforms-4\f82940ba5bfaacd899823ab820079db8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\ISABEL\.gradle\caches\transforms-4\76ebb5d09b24891f1fd45214f0c9c811\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -247,77 +247,77 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ISABEL\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\ISABEL\.gradle\caches\transforms-4\19be2320b67b3a68b111a9ee7cf691aa\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:17:9-54
 	tools:targetApi
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:22:9-29
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:21:9-49
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:19:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:15:9-65
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.kitsune.IUPB.android.envirosense.ui.view.LoginActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:25:13-36
 	android:theme
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:26:13-69
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:24:13-69
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:25:13-50
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:23:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.kitsune.IUPB.android.envirosense.ui.view.RegisterActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:34:9-37:38
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:32:9-35:38
 	android:exported
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:35:13-36
 	android:theme
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:36:13-69
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:35:13-53
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:33:13-53
 activity#com.kitsune.IUPB.android.envirosense.ui.view.SelectorActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:39:9-42:39
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:37:9-40:39
 	android:exported
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:40:13-36
 	android:theme
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:41:13-69
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:39:13-69
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:40:13-53
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:38:13-53
 activity#com.kitsune.IUPB.android.envirosense.ui.view.TemperatureActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:43:9-65
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:41:9-65
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:43:19-62
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:41:19-62
 activity#com.kitsune.IUPB.android.envirosense.ui.view.So2Activity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:44:9-57
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:42:9-57
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:44:19-54
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:42:19-54
 activity#com.kitsune.IUPB.android.envirosense.ui.view.HumedatyActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:45:9-62
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:43:9-62
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:45:19-59
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:43:19-59
 activity#com.kitsune.IUPB.android.envirosense.ui.view.CoActivity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:46:9-56
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:44:9-56
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:46:19-53
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:44:19-53
 activity#com.kitsune.IUPB.android.envirosense.ui.view.No2Activity
-ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:47:9-57
+ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:45:9-57
 	android:name
-		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:47:19-54
+		ADDED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml:45:19-54
 uses-sdk
 INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ISABEL\Downloads\EnviroSense\EnviroSense\app\src\main\AndroidManifest.xml
